@@ -22,11 +22,13 @@
       "minLength": 1,
       "metadata": {
         "description": "Primary location for all resources"
-      }
+      },
+      "defaultValue": "japaneast"
     },
     "openAILocation": {
       "type": "string",
       "allowedValues": [
+        "japaneast",
         "australiaeast",
         "canadaeast",
         "francecentral",
@@ -113,7 +115,7 @@
     },
     "searchServiceSkuName": {
       "type": "string",
-      "defaultValue": "standard"
+      "defaultValue": "free"
     },
     "storageServiceSku": {
       "type": "object",
@@ -549,10 +551,8 @@
                 "reserved": true
               },
               "sku": {
-                "name": "P0v3",
-                "tier": "Premium0V3",
-                "size": "P0v3",
-                "family": "Pv3",
+                "name": "F0",
+                "tier": "Free",
                 "capacity": 1
               },
               "kind": "linux"
