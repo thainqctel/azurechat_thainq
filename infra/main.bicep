@@ -40,7 +40,7 @@ param dalleDeploymentName string = 'dall-e-3'
 param dalleModelName string = 'dall-e-3'
 param dalleApiVersion string = '2023-12-01-preview'
 
-param formRecognizerSkuName string = 'Free'
+param formRecognizerSkuName string = 'S0'
 param searchServiceIndexName string = 'azure-chat'
 param searchServiceSkuName string = 'standard'
 
