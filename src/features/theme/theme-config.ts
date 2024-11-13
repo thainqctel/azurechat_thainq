@@ -1,5 +1,5 @@
-export const AI_NAME = "VLU Chat Assistant";
-export const AI_DESCRIPTION = "GenAI chat tra cứu thông tin.";
+export const AI_NAME = "VLU Chat Assistant AI";
+export const AI_DESCRIPTION = "GenAI chat tra cứu thông tin nội bộ trường đại học Văn Lang.";
 export const CHAT_DEFAULT_PERSONA = AI_NAME + " default";
 
 export const CHAT_DEFAULT_SYSTEM_PROMPT = `You are a friendly ${AI_NAME} AI assistant. You must always return in markdown format.
